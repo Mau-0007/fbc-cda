@@ -83,6 +83,12 @@ h1, h2, h3, h4{
 .accordion-button{
   box-shadow: none!important;
   color:#0c2941;
+  background: rgb(12,141,192);
+background: linear-gradient(90deg, rgba(12,141,192,1) 0%, rgba(12,141,192,1) 60px, rgba(255,255,255,1) 60px, rgba(255,255,255,0) 100%);
+}
+
+.accordion-button svg{
+  fill: #fff;
 }
 
 .accordion-button:not(.collapsed){
