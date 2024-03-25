@@ -38,6 +38,11 @@
       <div class="accordion accordion-flush col-lg-6 mx-auto" id="accordionFlush">
         <h5 class="display-9 fw-bold">Recursos de Apoyo</h5>
         <p mb-4>En esta sección, te ofrecemos recursos de apoyo para enriquecer tu experiencia con <b>Falabella Business Center.</b> Podrás encontrar <b>manuales detallados</b> que te guiarán paso a paso en el uso de nuestras herramientas y servicios.</p>
+       <!--disclaimer-->
+       <div class="alert alert-info alert-dismissible fade show" role="alert">
+        <strong>Nota: </strong>Es posible encontrar material que no necesariamente se ajuste a tus necesidades o al propósito de tu trabajo en Falabella Business Center.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
         <!--login-->
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingOne">
@@ -70,7 +75,7 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
               <img class="d-inline-block me-4" src="img/icon-file-w.svg" alt=""
-                  width="24">Módulo Órdenes de compra
+                  width="24">Uso módulo Órdenes de compra
             </button>
           </h2>
           <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
@@ -80,7 +85,7 @@
                 <li><a href="#" class="pdf document"><img class="d-inline-block me-2" src="img/icon-file.svg" alt=""
                       width="24">
                     Manual de usuario Órdenes de compra</a></li>
-                <li><a href="#" class="video document"><img class="d-inline-block me-2" src="img/icon-play.svg" alt=""
+                <li><a href="video-orden-de-compra.html" class="video document"><img class="d-inline-block me-2" src="img/icon-play.svg" alt=""
                       width="24">
                     Video módulo Órdenes de compra</a></li>
 
@@ -94,7 +99,7 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
               <img class="d-inline-block me-4" src="img/icon-despacho.svg" alt=""
-                  width="24">Módulo Despacho - Agendamiento de cita y eASN
+                  width="24">Uso módulo Despacho - Agendamiento de cita y eASN
           </h2>
           <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
             data-bs-parent="#accordionFlush">
@@ -123,7 +128,7 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
               <img class="d-inline-block me-4" src="img/icon-prefactura.svg" alt=""
-                  width="24">Módulo Prefactura
+                  width="24">Uso módulo Prefactura
           </h2>
           <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
             data-bs-parent="#accordionFlush">
@@ -146,7 +151,7 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
               <img class="d-inline-block me-4" src="img/icon-file-w.svg" alt=""
-                  width="24">Módulo Reportes
+                  width="24">Uso módulo Reportes
           </h2>
           <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
             data-bs-parent="#accordionFlush">
@@ -168,7 +173,7 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
               <img class="d-inline-block me-4" src="img/icon-file-w.svg" alt=""
-                  width="24">Módulo Venta en verde Argentina
+                  width="24">Uso módulo Venta en verde Argentina
           </h2>
           <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
             data-bs-parent="#accordionFlush">
@@ -287,6 +292,26 @@
     </div>
     </div>
 
+
+    <!--off canvas ayuda-->
+    <!-- Botón de menú para activar el Offcanvas -->
+  <!--<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+    Ingresa tu caso
+  </button>-->
+
+  <!-- Contenido del Offcanvas -->
+  <div class="offcanvas offcanvas-end offcanvas-xl" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Crear un caso</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
+    </div>
+    <div class="offcanvas-body">
+      <!-- Contenido del menú de navegación -->
+      <iframe width="100%" height= "480px"  src= "https://forms.office.com/Pages/ResponsePage.aspx?id=a4ioxEDxi0esRySVVcMK_QPdPC7-AvlHisk4eME13spUMTJCSVQxNkxJUEo4MlZTNEE0NUZKMjhDSS4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
+    </div>
+  </div>
+
     <!-- ayuda -->
     <div class="text-secondary px-4 text-center">
       <div class="py-5">
@@ -297,7 +322,7 @@
             <span class="me-3"><b>¿Necesitas más ayuda?</b></span>
 
             <!--<button type="button" class="btn btn-outline btn-md px-4 me-sm-3">Soporte Falabella</button>-->
-            <a type="button" class="btn btn-outline btn-md px-4 me-sm-3" target="_blank" href="https://forms.office.com/pages/responsepage.aspx?id=a4ioxEDxi0esRySVVcMK_axplN7PHtRJoHUoAGXrw_RURVdYVE1TMDBLVkJKSklLWTU2M1FLRkdOUiQlQCN0PWcu">Ingresa tu caso</a>
+            <a type="button" class="btn btn-outline btn-md px-4 me-sm-3"data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">Ingresa tu caso</a>
            <!-- <button type="button" class="btn btn-outline btn-md px-4 me-sm-3">Soporte Tottus</button>-->
           </div>
         </div>

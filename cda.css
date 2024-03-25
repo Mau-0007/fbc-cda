@@ -157,6 +157,19 @@ background: linear-gradient(90deg, rgba(12,141,192,1) 0%, rgba(12,141,192,1) 60p
 
 }
 
+/*Offcanvas*/
+.offcanvas-xl{
+  width: 80%!important
+}
+
+.offcanvas-body{
+  overflow: hidden;
+}
+
+.offcanvas-xl iframe{
+  height: 99%!important;
+}
+
 
 
 @keyframes textclip {
