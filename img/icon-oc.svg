@@ -1,0 +1,11 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_1069_342" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48">
+<path d="M48 0H0V48H48V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_1069_342)">
+<path d="M34 16L38.0094 16.0096C39.0688 16.012 40.0836 16.4346 40.8318 17.1844C41.5798 17.9344 42 18.9502 42 20.0096V38C42 39.0608 41.5786 40.0782 40.8284 40.8284C40.0782 41.5786 39.0608 42 38 42M38 42C36.9392 42 35.9218 41.5786 35.1716 40.8284C34.4214 40.0782 34 39.0608 34 38V12C34 10.9392 33.5786 9.9218 32.8284 9.1716C32.0782 8.4214 31.0608 8 30 8H10C8.9392 8 7.9218 8.4214 7.1716 9.1716C6.4214 9.9218 6 10.9392 6 12V38C6 39.0608 6.4214 40.0782 7.1716 40.8284C7.9218 41.5786 8.9392 42 10 42H38Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M27 34H13" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M27 28H13" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26 16H14C13.4478 16 13 16.4478 13 17V21C13 21.5522 13.4478 22 14 22H26C26.5522 22 27 21.5522 27 21V17C27 16.4478 26.5522 16 26 16Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

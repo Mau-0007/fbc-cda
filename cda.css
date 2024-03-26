@@ -35,8 +35,12 @@ h1, h2, h3, h4{
 }
 
 .btn-outline {
-  color: #0C2941;
-  border-color: #0C2941;
+  color: #333333;
+  border-color: #767676;
+}
+
+.btn.btn-outline:hover{
+  background: #E6E8EA!important;
 }
 
 .badge {
@@ -155,6 +159,13 @@ background: linear-gradient(90deg, rgba(12,141,192,1) 0%, rgba(12,141,192,1) 60p
   animation-iteration-count:2;
 
 
+}
+
+/*Alert info*/
+.alert-info{
+  background-color: #B4E0F1;
+  border-color: #B4E0F1;
+  color: #333;
 }
 
 /*Offcanvas*/
